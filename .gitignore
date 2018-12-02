@@ -5,6 +5,8 @@
 Debug/
 dci
 src
+dciCoder
+dciDecoder
 
 # archive
 *.zip

@@ -215,7 +215,7 @@ void printFunctionToDci0(dci0OutputValue* dci)
 	for (size_t i = 0; i < sizeof(dci->outputValue); i++)
 	{
 		c = (dci->outputValue >> (8 * i) & 0xff);
-		fprintf(stdout, "%c ", c);
+		fprintf(stdout, "%c", c);
 	}
     putchar('\n');
 }
