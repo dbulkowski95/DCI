@@ -1,0 +1,10 @@
+# eclipse
+.cproject
+.project
+.settings/
+Debug/
+dci
+src
+
+# archive
+*.zip
